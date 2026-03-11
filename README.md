@@ -1,192 +1,375 @@
-# Deep Learning: An Introduction
+<div align="center">
 
-A comprehensive educational website explaining the fundamentals of deep learning, including its definition, the core workflow, and key concepts. Built with React, Tailwind CSS, and modern web technologies.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Deep%20Learning&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Unlocking%20the%20Intelligence%20of%20Tomorrow&descAlignY=60&descAlign=50&animation=fadeIn" width="100%"/>
 
-## 📚 Overview
+<br/>
 
-This project provides an accessible introduction to deep learning for beginners and intermediate learners. It covers:
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=Neural+Networks+%F0%9F%A7%A0;Pattern+Recognition+%F0%9F%94%8D;Machine+Intelligence+%F0%9F%A4%96;The+Future+is+Now+%F0%9F%9A%80" alt="Typing SVG" />
 
-- **What is Deep Learning?** - Definition and relationship to AI and Machine Learning
-- **The 6-Step Workflow** - Complete process from data acquisition to deployment
-- **Key Concepts** - Neural networks, hidden layers, backpropagation, and activation functions
-- **Real-World Applications** - Computer vision, NLP, and autonomous systems
+<br/><br/>
 
-![Deep Learning Overview](https://files.manuscdn.com/user_upload_by_module/session_file/310519663408336893/mezmkuLxnFjTyiVG.png)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
-## 🚀 Quick Start
-
-### Prerequisites
-
-- Node.js 18+ 
-- pnpm (recommended) or npm
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/deep-learning-intro-page.git
-cd deep-learning-intro-page
-
-# Install dependencies
-pnpm install
-
-# Start development server
-pnpm dev
-```
-
-The site will be available at `http://localhost:3000`
-
-## 📖 The Deep Learning Workflow
-
-### 1. Data Acquisition
-Gather labeled data from various sources including public datasets, APIs, web scraping, or crowd-sourced annotations.
-
-### 2. Data Preprocessing
-Clean data, handle missing values, scale features, and convert categorical data and text to numerical formats.
-
-### 3. Dataset Splitting
-Divide data into training (70%), validation (15%), and test (15%) sets to ensure proper model evaluation.
-
-### 4. Model Building & Training
-Design neural network architecture and train the model on the training dataset using backpropagation.
-
-### 5. Model Evaluation
-Assess model performance on validation data using metrics like accuracy, precision, recall, and F1-score.
-
-### 6. Hyperparameter Tuning
-Optimize learning rate, batch size, and other parameters to improve model performance.
-
-![Deep Learning Training Process](https://files.manuscdn.com/user_upload_by_module/session_file/310519663408336893/oGbZpsBGyWZKeRCO.jpeg)
-
-## 🎯 Key Concepts
-
-### Neural Networks
-Computational models inspired by biological neurons with interconnected layers. The foundation of deep learning.
-
-![Neural Network Architecture](https://files.manuscdn.com/user_upload_by_module/session_file/310519663408336893/ZnOgzfVUoQDDDQgw.png)
-
-### Hidden Layers
-Intermediate layers between input and output that enable the model to learn complex patterns and representations from data.
-
-### Backpropagation
-Algorithm for training networks by calculating gradients and updating weights to minimize loss function during training.
-
-### Activation Functions
-Mathematical functions that introduce non-linearity, allowing networks to learn complex relationships and patterns.
-
-![AI and Deep Learning Hierarchy](https://files.manuscdn.com/user_upload_by_module/session_file/310519663408336893/nRayeSRGSOhXgYfP.png)
-
-## 💻 Technology Stack
-
-- **Frontend**: React 19 with TypeScript
-- **Styling**: Tailwind CSS 4 with custom theme
-- **UI Components**: shadcn/ui
-- **Build Tool**: Vite
-- **Typography**: Plus Jakarta Sans + Merriweather fonts
-- **Icons**: Lucide React
-
-![Neural Network Architecture Diagram](https://files.manuscdn.com/user_upload_by_module/session_file/310519663408336893/HbonUNdSFqlDqucz.png)
-
-## 📁 Project Structure
-
-```
-client/
-├── src/
-│   ├── pages/
-│   │   └── Home.tsx          # Main deep learning introduction page
-│   ├── components/           # Reusable UI components
-│   ├── App.tsx              # Main app component with routing
-│   ├── index.css            # Global styles and theme
-│   └── main.tsx             # React entry point
-├── public/                   # Static assets
-└── index.html               # HTML template
-
-server/                       # Express server (static deployment)
-package.json                 # Dependencies and scripts
-```
-
-## 🎨 Design Features
-
-- **Responsive Design** - Works seamlessly on desktop, tablet, and mobile
-- **Modern UI** - Clean, professional interface with gradient backgrounds
-- **Accessibility** - Semantic HTML and keyboard navigation support
-- **Interactive Elements** - Hover effects, smooth transitions, and visual feedback
-- **Color Scheme** - Blue accent colors with light background for optimal readability
-
-## 📦 Available Scripts
-
-```bash
-# Development
-pnpm dev          # Start dev server with hot reload
-
-# Production
-pnpm build        # Build for production
-pnpm preview      # Preview production build locally
-pnpm start        # Start production server
-
-# Code Quality
-pnpm check        # Run TypeScript type checking
-pnpm format       # Format code with Prettier
-```
-
-## 🌐 Deployment
-
-This project can be deployed to various platforms:
-
-- **Vercel** - Recommended for static sites
-- **Netlify** - Easy deployment with CI/CD
-- **GitHub Pages** - Free hosting for static content
-- **AWS S3 + CloudFront** - Scalable solution
-
-### Deploy to Vercel
-
-```bash
-npm install -g vercel
-vercel
-```
-
-### Deploy to Netlify
-
-```bash
-npm install -g netlify-cli
-netlify deploy
-```
-
-## 📚 Learning Resources
-
-### Recommended Tools & Frameworks
-- [TensorFlow](https://www.tensorflow.org/) - End-to-end machine learning platform
-- [PyTorch](https://pytorch.org/) - Deep learning framework
-- [Keras](https://keras.io/) - High-level neural networks API
-
-### Datasets
-- [Kaggle](https://www.kaggle.com/) - Thousands of public datasets
-- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/) - Classic datasets
-- [ImageNet](https://www.image-net.org/) - Large-scale visual database
-
-### Further Reading
-- [Deep Learning Book](https://www.deeplearningbook.org/) - Comprehensive textbook
-- [Fast.ai](https://www.fast.ai/) - Practical deep learning course
-- [Stanford CS231n](http://cs231n.stanford.edu/) - Convolutional neural networks
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 🙏 Acknowledgments
-
-- Built with [React](https://react.dev/)
-- Styled with [Tailwind CSS](https://tailwindcss.com/)
-- UI components from [shadcn/ui](https://ui.shadcn.com/)
-- Icons from [Lucide React](https://lucide.dev/)
-- Images sourced from Google Images
+</div>
 
 ---
 
-**Happy Learning!** 🚀 Start your deep learning journey today.
+## 📌 Table of Contents
+
+- [🧠 What is Deep Learning?](#-what-is-deep-learning)
+- [🌐 How It Differs from Machine Learning](#-how-it-differs-from-machine-learning)
+- [⚙️ The Architecture](#️-the-architecture)
+- [🪜 Steps of Deep Learning](#-steps-of-deep-learning)
+- [🔬 Types of Neural Networks](#-types-of-neural-networks)
+- [🚀 Real-World Applications](#-real-world-applications)
+- [🛠️ Popular Frameworks](#️-popular-frameworks)
+- [📊 Performance Metrics](#-performance-metrics)
+- [📚 Resources](#-resources)
+
+---
+
+## 🧠 What is Deep Learning?
+
+<div align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGd2dGlhOGplNDZwcXB3aHZhZ2NoNnpyeGpzd3AzOGhtZXlpNWhiZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LaVp0AyqR5bGsC5Cbm/giphy.gif" width="500" alt="Neural Network Animation"/>
+</div>
+
+<br/>
+
+> **Deep Learning** is a subfield of **Machine Learning** inspired by the structure and function of the human brain — specifically, neural networks.
+
+Deep Learning enables machines to **automatically learn** representations from raw data through multiple layers of abstraction. It powers the technology behind voice assistants, self-driving cars, medical diagnostics, and generative AI.
+
+```
+Raw Data  →  Feature Extraction  →  Pattern Recognition  →  Decision / Output
+   📷              🔍                       🧩                     ✅
+```
+
+<div align="center">
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*3fA77_mLNiJTSgZFhYnU0Q.png" width="500" alt="Neural Network Diagram"/>
+
+*A simple neural network with input, hidden, and output layers*
+</div>
+
+---
+
+## 🌐 How It Differs from Machine Learning
+
+<div align="center">
+
+| Feature | Traditional ML | Deep Learning |
+|--------|---------------|---------------|
+| **Feature Engineering** | Manual | Automatic |
+| **Data Requirements** | Small to Medium | Large |
+| **Interpretability** | High | Low (Black Box) |
+| **Hardware** | CPU | GPU / TPU |
+| **Performance on Complex Tasks** | Limited | State-of-the-art |
+| **Training Time** | Fast | Slow |
+
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHFvZ2lpZWdiYTZzMWRqZnUxZGhlanprNWU4bngyNm1pYzI0ZXozdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPEqDGUULpEU0aQ/giphy.gif" width="460" alt="Data Processing"/>
+</div>
+
+---
+
+## ⚙️ The Architecture
+
+<div align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnN5bjNldnlhOXJjbXZmb2swMWxzYXZ0bXM1anc0eGU0NXA4ZDZoayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgzoKnwFNmISR8I/giphy.gif" width="500" alt="Deep Learning Architecture"/>
+</div>
+
+<br/>
+
+A deep neural network consists of **multiple stacked layers**:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    DEEP NEURAL NETWORK                      │
+│                                                             │
+│  INPUT LAYER     HIDDEN LAYERS          OUTPUT LAYER        │
+│  ┌─────────┐   ┌────┐ ┌────┐ ┌────┐   ┌─────────┐         │
+│  │ 🖼️ Image │──▶│    │▶│    │▶│    │──▶│ 🏷️ Label │         │
+│  │ 🔊 Audio │──▶│ L1 │▶│ L2 │▶│ L3 │──▶│ 📊 Score │         │
+│  │ 📝 Text  │──▶│    │▶│    │▶│    │──▶│ 🔢 Value │         │
+│  └─────────┘   └────┘ └────┘ └────┘   └─────────┘         │
+│                                                             │
+│           Each layer learns increasingly abstract features  │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🪜 Steps of Deep Learning
+
+<div align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGNwbzZwN3Z3bmkydGMwMmpwZXZpcGM2Y2hnemdmaHZhejJ1eWx0diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/du3J3cXyzhj75IOgvA/giphy.gif" width="500" alt="Steps Animation"/>
+</div>
+
+<br/>
+
+### Step 1️⃣ — Data Collection & Preparation
+
+```python
+import numpy as np
+from sklearn.model_selection import train_test_split
+
+# Load and split your dataset
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+
+# Normalize pixel values to [0, 1]
+X_train = X_train / 255.0
+X_test  = X_test  / 255.0
+```
+
+> 📦 Collect raw data → Clean & preprocess → Normalize → Split into train/validation/test sets
+
+---
+
+### Step 2️⃣ — Define the Model Architecture
+
+```python
+import tensorflow as tf
+from tensorflow.keras import layers, models
+
+model = models.Sequential([
+    layers.Input(shape=(28, 28, 1)),
+    layers.Conv2D(32, (3, 3), activation='relu'),
+    layers.MaxPooling2D((2, 2)),
+    layers.Conv2D(64, (3, 3), activation='relu'),
+    layers.MaxPooling2D((2, 2)),
+    layers.Flatten(),
+    layers.Dense(128, activation='relu'),
+    layers.Dropout(0.5),
+    layers.Dense(10, activation='softmax')   # output layer
+])
+```
+
+> 🏗️ Choose architecture type (CNN, RNN, Transformer) → Stack layers → Set activation functions
+
+---
+
+### Step 3️⃣ — Compile the Model
+
+```python
+model.compile(
+    optimizer='adam',
+    loss='sparse_categorical_crossentropy',
+    metrics=['accuracy']
+)
+
+model.summary()
+```
+
+> ⚙️ Choose optimizer (Adam, SGD, RMSProp) → Define loss function → Select evaluation metrics
+
+---
+
+### Step 4️⃣ — Train the Model
+
+<div align="center">
+
+</div>
+
+```python
+history = model.fit(
+    X_train, y_train,
+    epochs=25,
+    batch_size=64,
+    validation_split=0.2,
+    callbacks=[
+        tf.keras.callbacks.EarlyStopping(patience=3, restore_best_weights=True),
+        tf.keras.callbacks.ReduceLROnPlateau(factor=0.5, patience=2)
+    ]
+)
+```
+
+> 🔄 Forward pass → Calculate loss → Backpropagation → Update weights → Repeat per epoch
+
+---
+
+### Step 5️⃣ — Evaluate & Visualize
+
+```python
+import matplotlib.pyplot as plt
+
+# Plot accuracy & loss curves
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 4))
+
+ax1.plot(history.history['accuracy'],     label='Train Accuracy')
+ax1.plot(history.history['val_accuracy'], label='Val Accuracy')
+ax1.set_title('Model Accuracy');  ax1.legend()
+
+ax2.plot(history.history['loss'],     label='Train Loss')
+ax2.plot(history.history['val_loss'], label='Val Loss')
+ax2.set_title('Model Loss');  ax2.legend()
+
+plt.tight_layout()
+plt.show()
+
+# Final evaluation
+test_loss, test_acc = model.evaluate(X_test, y_test)
+print(f"Test Accuracy: {test_acc:.4f}")
+```
+
+---
+
+### Step 6️⃣ — Tune Hyperparameters
+
+```python
+from keras_tuner import RandomSearch
+
+def build_model(hp):
+    model = models.Sequential()
+    model.add(layers.Dense(
+        units=hp.Int('units', min_value=64, max_value=512, step=64),
+        activation='relu'
+    ))
+    model.add(layers.Dense(10, activation='softmax'))
+    model.compile(
+        optimizer=hp.Choice('optimizer', ['adam', 'sgd']),
+        loss='sparse_categorical_crossentropy',
+        metrics=['accuracy']
+    )
+    return model
+
+tuner = RandomSearch(build_model, objective='val_accuracy', max_trials=10)
+tuner.search(X_train, y_train, epochs=5, validation_split=0.2)
+```
+
+> 🎛️ Learning rate · Batch size · Layer depth · Dropout rate · Optimizer choice
+
+---
+
+### Step 7️⃣ — Deploy the Model
+
+```python
+# Save model
+model.save('deep_learning_model.h5')
+
+# Load and predict
+loaded_model = tf.keras.models.load_model('deep_learning_model.h5')
+predictions   = loaded_model.predict(new_data)
+
+# Export for web / mobile
+converter = tf.lite.TFLiteConverter.from_keras_model(model)
+tflite_model = converter.convert()
+```
+
+> ☁️ Export → Containerize (Docker) → Serve via REST API / Edge / Mobile
+
+---
+
+## 🔬 Types of Neural Networks
+
+<div align="center">
+
+| Network Type | Icon | Best For |
+|---|---|---|
+| **Convolutional Neural Network (CNN)** | 🖼️ | Image Recognition, Vision |
+| **Recurrent Neural Network (RNN)** | 🔁 | Sequences, Time Series |
+| **Long Short-Term Memory (LSTM)** | 🧬 | NLP, Speech |
+| **Transformer** | ⚡ | Language Models, Attention |
+| **Generative Adversarial Network (GAN)** | 🎨 | Image Generation |
+| **Autoencoder** | 🗜️ | Compression, Anomaly Detection |
+| **Graph Neural Network (GNN)** | 🕸️ | Social Networks, Molecules |
+
+</div>
+
+<div align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHpmcmVrenVoMm14ZG9rb2tsMjlhdHlqMWlseWM4c3VqdzNiZzk4dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn33aiTi1jkl6H6/giphy.gif" width="460" alt="AI Network"/>
+</div>
+
+---
+
+## 🚀 Real-World Applications
+
+<div align="center">
+
+```
+🏥 Healthcare          🚗 Autonomous Vehicles     🗣️ Voice Assistants
+   Cancer Detection        Object Detection           Siri / Alexa / GPT
+   
+🎮 Gaming              📸 Computer Vision         🌐 NLP & Translation
+   AlphaGo / OpenAI5       Face Recognition           Google Translate
+   
+💹 Finance             🎵 Music & Art             🔬 Scientific Research
+   Fraud Detection         DALL·E / Midjourney        Drug Discovery
+```
+
+</div>
+
+---
+
+## 🛠️ Popular Frameworks
+
+<div align="center">
+
+| Framework | Language | Best For |
+|-----------|----------|----------|
+| ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) | Python / JS / C++ | Production, Mobile |
+| ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) | Python | Research, Flexibility |
+| ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white) | Python | Rapid Prototyping |
+| ![JAX](https://img.shields.io/badge/JAX-A8B9CC?style=flat&logo=google&logoColor=black) | Python | HPC, TPU |
+| ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat&logo=onnx&logoColor=white) | Multi | Model Interoperability |
+
+</div>
+
+---
+
+## 📊 Performance Metrics
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║                   EVALUATION METRICS                        ║
+╠══════════════════════════════════════════════════════════════╣
+║  Accuracy     = (TP + TN) / Total                           ║
+║  Precision    = TP / (TP + FP)                              ║
+║  Recall       = TP / (TP + FN)                              ║
+║  F1 Score     = 2 × (Precision × Recall) / (P + R)         ║
+║  AUC-ROC      = Area Under the ROC Curve                    ║
+║  Cross-Entropy Loss = -Σ y·log(ŷ)                           ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## 📚 Resources
+
+<div align="center">
+
+| Resource | Link |
+|----------|------|
+| 📖 Deep Learning Book (Goodfellow) | [deeplearningbook.org](https://www.deeplearningbook.org/) |
+| 🎓 fast.ai Course | [fast.ai](https://www.fast.ai/) |
+| 🎓 DeepLearning.AI | [deeplearning.ai](https://www.deeplearning.ai/) |
+| 📄 Papers With Code | [paperswithcode.com](https://paperswithcode.com/) |
+| 🔬 TensorFlow Docs | [tensorflow.org/learn](https://www.tensorflow.org/learn) |
+| 🔥 PyTorch Tutorials | [pytorch.org/tutorials](https://pytorch.org/tutorials/) |
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnFnbGhvdHpkZXF2Ync1dTlqcTFoMTQ0Z2tiOTc3ZGV2Ymt3ejlkZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/077i6AULCXc0FKTj9s/giphy.gif" width="400" alt="AI Future"/>
+
+### *"Deep Learning is eating the world — one layer at a time."*
+
+<br/>
+
+![Stars](https://img.shields.io/github/stars/AnnayaSingh/Deep-Learning-?style=social)
+![Forks](https://img.shields.io/github/forks/AnnayaSingh/Deep-Learning-?style=social)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=AnnayaSingh.Deep-Learning-)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
+
+</div>
