@@ -1,10 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Deep%20Learning&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Unlocking%20the%20Intelligence%20of%20Tomorrow&descAlignY=60&descAlign=50&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&customColorList=6,11,20&height=220&section=header&text=Deep%20Learning&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Unlocking%20the%20Intelligence%20of%20Tomorrow&descAlignY=60&descAlign=50&animation=fadeIn&stroke=ffffff&strokeWidth=2" width="100%"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=Neural+Networks+%F0%9F%A7%A0;Pattern+Recognition+%F0%9F%94%8D;Machine+Intelligence+%F0%9F%A4%96;The+Future+is+Now+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1200&color=A855F7&center=true&vCenter=true&multiline=false&width=650&height=60&lines=Neural+Networks+%F0%9F%A7%A0;Pattern+Recognition+%F0%9F%94%8D;Machine+Intelligence+%F0%9F%A4%96;The+Future+is+Now+%F0%9F%9A%80" alt="Typing SVG" />
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" alt="Pulse wave banner"/>
 
 <br/><br/>
 
@@ -35,7 +39,7 @@
 ## 🧠 What is Deep Learning?
 
 <div align="center">
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGd2dGlhOGplNDZwcXB3aHZhZ2NoNnpyeGpzd3AzOGhtZXlpNWhiZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LaVp0AyqR5bGsC5Cbm/giphy.gif" width="500" alt="Neural Network Animation"/>
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="400" alt="Neural Pulse Animation"/>
 </div>
 
 <br/>
@@ -75,7 +79,7 @@ Raw Data  →  Feature Extraction  →  Pattern Recognition  →  Decision / Out
 <br/>
 
 <div align="center">
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHFvZ2lpZWdiYTZzMWRqZnUxZGhlanprNWU4bngyNm1pYzI0ZXozdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPEqDGUULpEU0aQ/giphy.gif" width="460" alt="Data Processing"/>
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400" alt="Data Processing Wave"/>
 </div>
 
 ---
@@ -83,7 +87,7 @@ Raw Data  →  Feature Extraction  →  Pattern Recognition  →  Decision / Out
 ## ⚙️ The Architecture
 
 <div align="center">
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnN5bjNldnlhOXJjbXZmb2swMWxzYXZ0bXM1anc0eGU0NXA4ZDZoayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgzoKnwFNmISR8I/giphy.gif" width="500" alt="Deep Learning Architecture"/>
+<img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="400" alt="Architecture Pulse"/>
 </div>
 
 <br/>
@@ -110,7 +114,7 @@ A deep neural network consists of **multiple stacked layers**:
 ## 🪜 Steps of Deep Learning
 
 <div align="center">
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGNwbzZwN3Z3bmkydGMwMmpwZXZpcGM2Y2hnemdmaHZhejJ1eWx0diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/du3J3cXyzhj75IOgvA/giphy.gif" width="500" alt="Steps Animation"/>
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="400" alt="Steps Pulse Animation"/>
 </div>
 
 <br/>
@@ -173,10 +177,6 @@ model.summary()
 ---
 
 ### Step 4️⃣ — Train the Model
-
-<div align="center">
-
-</div>
 
 ```python
 history = model.fit(
@@ -284,7 +284,7 @@ tflite_model = converter.convert()
 </div>
 
 <div align="center">
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHpmcmVrenVoMm14ZG9rb2tsMjlhdHlqMWlseWM4c3VqdzNiZzk4dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn33aiTi1jkl6H6/giphy.gif" width="460" alt="AI Network"/>
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="400" alt="Network Pulse"/>
 </div>
 
 ---
@@ -360,7 +360,7 @@ tflite_model = converter.convert()
 
 <div align="center">
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnFnbGhvdHpkZXF2Ync1dTlqcTFoMTQ0Z2tiOTc3ZGV2Ymt3ejlkZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/077i6AULCXc0FKTj9s/giphy.gif" width="400" alt="AI Future"/>
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" alt="AI Future Pulse Wave"/>
 
 ### *"Deep Learning is eating the world — one layer at a time."*
 
@@ -370,6 +370,6 @@ tflite_model = converter.convert()
 ![Forks](https://img.shields.io/github/forks/AnnayaSingh/Deep-Learning-?style=social)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=AnnayaSingh.Deep-Learning-)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
